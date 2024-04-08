@@ -1,0 +1,109 @@
+/* Write your code here. */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 49px;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.all-boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smallBox {
+  width: 80px;
+  height: 80px;
+  background-color: #fbbf24;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.mediumBox {
+  width: 120px;
+  height: 120px;
+  background-color: #38bdf8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.largeBox {
+  width: 180px;
+  height: 180px;
+  background-color: #ec4899;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.textStyle {
+  font-family: 'Bree Serif';
+  font-size: px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media all and (min-width: 767px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 59px;
+  }
+
+  .all-boxes-container {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: auto;
+  }
+
+  .smallBox {
+    width: 150px;
+    height: 150px;
+    margin-right: 9px;
+  }
+
+  .mediumBox {
+    width: 250px;
+    height: 250px;
+    margin-right: 9px;
+  }
+
+  .largeBox {
+    width: 350px;
+    height: 350px;
+    margin-right: 9px;
+  }
+
+  .textStyle {
+    font-size: 39px;
+  }
+}
